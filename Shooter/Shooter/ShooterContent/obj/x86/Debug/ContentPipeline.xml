@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Effects\effects.fx</Source>
+      <Name>Effects\effects</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Effects\effects.xnb</Output>
+      <Time>2013-12-05T15:54:44+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\DrWho.spritefont</Source>
+      <Name>Fonts\DrWho</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Fonts\DrWho.xnb</Output>
+      <Time>2013-12-05T15:54:44+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\shot007.wav</Source>
+      <Name>Audio\shot007</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Audio\shot007.xnb</Output>
+      <Time>2013-12-12T15:04:45.5862407+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\missile007.wav</Source>
+      <Name>Audio\missile007</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Audio\missile007.xnb</Output>
+      <Time>2013-12-12T15:19:28.3797336+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\robotInitial.wav</Source>
+      <Name>Audio\robotInitial</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Parameters>
+        <Data Key="Quality">Medium</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Audio\robotInitial.xnb</Output>
+      <Time>2013-12-12T15:20:02.0346586+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\zombieGroan.wav</Source>
+      <Name>Audio\zombieGroan</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Audio\zombieGroan.xnb</Output>
+      <Time>2013-12-12T15:31:41.3345977+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\terrrrrrrrrain.jpg</Source>
+      <Name>Models\terrrrrrrrrain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\terrrrrrrrrain.xnb</Output>
+      <Time>2013-12-05T15:54:44+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\uvmap.jpg</Source>
+      <Name>Models\uvmap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\uvmap.xnb</Output>
+      <Time>2013-12-05T18:30:42+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\flesh_diffuse_1024.jpg</Source>
+      <Name>Models\flesh_diffuse_1024</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\flesh_diffuse_1024.xnb</Output>
+      <Time>2013-12-09T15:48:30.4840907+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\exit.png</Source>
+      <Name>Textures\exit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Textures\exit.xnb</Output>
+      <Time>2013-12-16T01:39:30.283246+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\resume.png</Source>
+      <Name>Textures\resume</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Textures\resume.xnb</Output>
+      <Time>2013-12-16T11:26:32.1218041+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\start.png</Source>
+      <Name>Textures\start</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Textures\start.xnb</Output>
+      <Time>2013-12-16T01:40:19.6510697+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\terrain.fbx</Source>
+      <Name>Models\terrain</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\terrain.xnb</Output>
+      <Time>2013-12-05T15:54:44+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\terrain_0.xml</Key>
+        <Value>2013-12-14T17:14:03.6793238+00:00</Value>
+      </Dependency>
+      <Request>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\terrrrrrrrrain_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\missile.fbx</Source>
+      <Name>Models\missile</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="RotationX">270</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\missile.xnb</Output>
+      <Time>2013-12-05T18:30:42+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\missile_0.xml</Key>
+        <Value>2013-12-14T17:14:07.0489298+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\bullet.fbx</Source>
+      <Name>Models\bullet</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="RotationX">270</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\bullet.xnb</Output>
+      <Time>2013-12-05T16:52:32+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\bullet_0.xml</Key>
+        <Value>2013-12-14T17:14:08.1877318+00:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\zombie.fbx</Source>
+      <Name>Models\zombie</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\zombie.xnb</Output>
+      <Time>2013-12-09T15:47:58.3512528+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\zombie_0.xml</Key>
+        <Value>2013-12-14T17:14:08.296932+00:00</Value>
+      </Dependency>
+      <Request>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\flesh_diffuse_1024_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Audio\gameMusic.mp3</Source>
+      <Name>Audio\gameMusic</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Audio\gameMusic.xnb</Output>
+      <Extra>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Audio\gameMusic.wma</Extra>
+      <Time>2013-12-12T15:30:20.6509829+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\skybox.x</Source>
+      <Name>Models\skybox</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\skybox.xnb</Output>
+      <Time>2013-12-05T15:54:44+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\skybox_0.xml</Key>
+        <Value>2013-12-14T17:14:12.7897398+00:00</Value>
+      </Dependency>
+      <Request>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\SkyBox_Top_0.xnb</Request>
+      <Request>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\SkyBox_Right_0.xnb</Request>
+      <Request>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\SkyBox_Left_0.xnb</Request>
+      <Request>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\SkyBox_Front_0.xnb</Request>
+      <Request>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\SkyBox_Back_0.xnb</Request>
+      <Request>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\SkyBox_Bottom_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\terrain.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\terrain_0.xml</Output>
+      <Time>2013-12-05T15:54:44+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\terrrrrrrrrain.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\terrrrrrrrrain_0.xnb</Output>
+      <Time>2013-12-05T15:54:44+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\BallDroid.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\BallDroid_0.xml</Output>
+      <Time>2013-12-16T09:42:51.5400964+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\missile.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\missile_0.xml</Output>
+      <Time>2013-12-05T18:30:42+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\bullet.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\bullet_0.xml</Output>
+      <Time>2013-12-05T16:52:32+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\zombie.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\zombie_0.xml</Output>
+      <Time>2013-12-09T15:47:58.3512528+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\flesh_diffuse_1024.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\flesh_diffuse_1024_0.xnb</Output>
+      <Time>2013-12-09T15:48:30.4840907+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\skybox.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\skybox_0.xml</Output>
+      <Time>2013-12-05T15:54:44+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\SkyBox_Top.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\SkyBox_Top_0.xnb</Output>
+      <Time>2013-12-05T15:54:44+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\SkyBox_Right.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\SkyBox_Right_0.xnb</Output>
+      <Time>2013-12-05T15:54:44+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\SkyBox_Left.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\SkyBox_Left_0.xnb</Output>
+      <Time>2013-12-05T15:54:44+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\SkyBox_Front.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\SkyBox_Front_0.xnb</Output>
+      <Time>2013-12-05T15:54:44+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\SkyBox_Back.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\SkyBox_Back_0.xnb</Output>
+      <Time>2013-12-05T15:54:44+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\SkyBox_Bottom.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\SkyBox_Bottom_0.xnb</Output>
+      <Time>2013-12-05T15:54:44+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\loading.png</Source>
+      <Name>Textures\loading</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Textures\loading.xnb</Output>
+      <Time>2013-12-14T17:19:16.8753822+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\pause.png</Source>
+      <Name>Textures\pause</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Textures\pause.xnb</Output>
+      <Time>2013-12-14T17:19:16.8753822+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\SoundOff.png</Source>
+      <Name>Textures\SoundOff</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Textures\SoundOff.xnb</Output>
+      <Time>2013-12-14T20:04:42.5688819+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\SoundOn.png</Source>
+      <Name>Textures\SoundOn</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Textures\SoundOn.xnb</Output>
+      <Time>2013-12-14T20:04:54.9318994+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\htp.png</Source>
+      <Name>Textures\htp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Textures\htp.xnb</Output>
+      <Time>2013-12-16T01:37:42.531083+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\back.png</Source>
+      <Name>Textures\back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Textures\back.xnb</Output>
+      <Time>2013-12-16T01:38:28.1736936+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\background.png</Source>
+      <Name>Textures\background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Textures\background.xnb</Output>
+      <Time>2013-12-16T00:28:48.9286544+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Slicey.mp3</Source>
+      <Name>Audio\Slicey</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Audio\Slicey.xnb</Output>
+      <Extra>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Audio\Slicey.wma</Extra>
+      <Time>2013-12-14T21:10:42.4881527+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\fire.png</Source>
+      <Name>Textures\fire</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Textures\fire.xnb</Output>
+      <Time>2013-12-14T23:33:51.8606709+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\smoke.png</Source>
+      <Name>Textures\smoke</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Textures\smoke.xnb</Output>
+      <Time>2013-12-12T13:34:10.0643984+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\blood.png</Source>
+      <Name>Textures\blood</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Textures\blood.xnb</Output>
+      <Time>2013-12-16T00:21:52.2328208+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\howtoplay.png</Source>
+      <Name>Textures\howtoplay</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Textures\howtoplay.xnb</Output>
+      <Time>2013-12-16T01:30:19.2787304+00:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\77FF1E6C\BallDroid.fbm\metal.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\FBX\77FF1E6C\BallDroid.fbm\metal_0.xnb</Output>
+      <Time>2013-12-16T09:43:41.2239732+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\BallDroid.fbx</Source>
+      <Name>Models\BallDroid</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="RotationY">90</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Models\BallDroid.xnb</Output>
+      <Time>2013-12-16T09:42:51.5400964+00:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\BallDroid_0.xml</Key>
+        <Value>2013-12-16T09:43:41.8947744+00:00</Value>
+      </Dependency>
+      <Request>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\FBX\77FF1E6C\BallDroid.fbm\metal_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Effects\ModelShader.fx</Source>
+      <Name>Effects\ModelShader</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Effects\ModelShader.xnb</Output>
+      <Time>2013-12-16T09:59:47.9596658+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\backgroundfail.png</Source>
+      <Name>Textures\backgroundfail</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\Textures\backgroundfail.xnb</Output>
+      <Time>2013-12-16T10:52:20.1174732+00:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Samir\Desktop\Shooter\Shooter\ShooterContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Samir\Desktop\Shooter\Shooter\ShooterContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Samir\Desktop\Shooter\Shooter\Shooter\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-11-21T16:24:25.2144834+00:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Shooter.Game1" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gCwAHkKOFahIkwlJrUPIQ4MiYVhggKxkEq9wqXDpAA0=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shooter.GameConstants">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAgBAQAgAACEQBQAAAAAACAAAAIAAASECAEEAI=</HashCode>
+      <FileName>GameConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shooter.Program" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPSF.ParticleSystem.BloodParticles" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAgIACAAQgABAAAAAABAAAAAAAgAAAAAAAACAAAA=</HashCode>
+      <FileName>ParticleSystem\BloodParticles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPSF.ParticleSystem.FireParticles" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAgIACAAQgABAAAAAABAAAAAAAgAAAAAAAACAAAA=</HashCode>
+      <FileName>ParticleSystem\FireParticles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPSF.ParticleSystem.SmokeParticles" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAgIACAAAgAAAAAAAABAEAAABAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParticleSystem\SmokeParticles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Shooter.Bullet" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAIAAAAAAAIBAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Shooter.Missile" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAIAAAAAAAIBAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Missile.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Shooter.Zombies" Collapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAIAAAAAAAIBAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zombies.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
